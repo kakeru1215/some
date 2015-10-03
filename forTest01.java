@@ -1,5 +1,6 @@
+package kakeru_201510;
 import java.io.*;
-//forè¯­å¥ç”Ÿæˆä¸€äº›ç®€å•å­—ç¬¦ä¸²å›¢
+//forÓï¾äÉú³ÉÒ»Ğ©¼òµ¥×Ö·û´®ÍÅ
 public class forTest01 {
 	public static void main(String[] args) throws IOException{
 	//practice01
@@ -35,3 +36,4 @@ public class forTest01 {
 	}	
 	}
 }
+

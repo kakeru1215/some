@@ -1,4 +1,5 @@
-//æ‰“å°9x9ä¹˜æ³•è¡¨ 
+package kakeru_201510;
+//´òÓ¡9x9³Ë·¨±í 
 public class table9x9 {
 	public static void main(String[] args){
 		for(int y=0;y<=9;y++){

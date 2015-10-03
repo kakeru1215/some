@@ -1,4 +1,5 @@
-//ç”Ÿæˆ10ä¸ª1-10çš„éšæœºæ•°ï¼Œä¸”ä¸é‡å¤
+package kakeru_201510;
+//Éú³É10¸ö1-10µÄËæ»úÊı£¬ÇÒ²»ÖØ¸´
 public class random7num{
 	static{
 		ar01 = new int[10];

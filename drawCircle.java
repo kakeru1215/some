@@ -1,3 +1,4 @@
+package kakeru_201510;
 import java.io.*;
 
 public class drawCircle {
@@ -11,7 +12,7 @@ public class drawCircle {
 			if(y>r){h=y-(int)r;}
 			else{h=(int)r-y;}
 			point=(int)Math.round(Math.sqrt(Math.pow(r, 2) - Math.pow(h,2)));
-			for(int x=0;x<=2n *r;x++){
+			for(int x=0;x<=2*r;x++){
 				if(x==r-point || x==r+point){
 					System.out.print("@");
 				}else{

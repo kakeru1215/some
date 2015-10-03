@@ -1,3 +1,4 @@
+package kakeru_201510;
 import java.io.*;
 
 public class checkInt {
@@ -6,7 +7,7 @@ public class checkInt {
 		int[] arr = new int[]{1,2,3,4,5,6,7,8,9,10};
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		System.out.print("è¯·è¾“å…¥ä¸€ä¸ªæ•°å­—ï¼š ");
+		System.out.print("ÇëÊäÈëÒ»¸öÊı×Ö£º ");
 		int Num = Integer.parseInt(br.readLine());
 		
 		for(int i=0;i<arr.length;i++){
@@ -15,9 +16,9 @@ public class checkInt {
 			else continue;
 		}
 		if(result){
-			System.out.println(Num + "åœ¨æ•°ç»„å†…");
+			System.out.println(Num + "ÔÚÊı×éÄÚ");
 		}else{
-			System.out.println(Num + "ä¸åœ¨æ•°ç»„å†…");
+			System.out.println(Num + "²»ÔÚÊı×éÄÚ");
 		}
 	}
 }
