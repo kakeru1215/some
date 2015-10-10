@@ -1,3 +1,4 @@
+package kakeru_201510;
 public class zhishu{
 		public static void main(String[] args){
 			int count = 0;
