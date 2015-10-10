@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>sample</title>
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+#header .inner{
+	position:relative;
+	top:30px;
+	margin-left:60px;
+	margin-right:60px;
+	/*height:70px;*/
+	background-color:#444;
+	border-left:15px solid white;
+	}
+#header{
+	width:100%;
+	height:200px;
+	margin-bottom:15px;
+	background-color:#444;
+	box-shadow:0px 1px 6px 2px #999;
+}
+h2{
+	font-family:"锐字逼格青春体简2.0", "黑体";
+	font-size:24px;
+	color:white;
+	padding-left:20px;
+	line-height:25px;
+	overflow:hidden;
+	word-break:keep-all;/* 不换行 */
+	white-space:nowrap;/* 不换行 */
+	overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+	text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/	
+	}
+h1{
+	font-family:"锐字逼格青春体简2.0", "黑体";
+	font-size:48px;
+	color:white;
+	padding-left:20px;
+	line-height:45px;
+	word-break:keep-all;/* 不换行 */
+	white-space:nowrap;/* 不换行 */
+	overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+	text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+#contents .inner{
+	box-shadow:0px 1px 6px 2px #999;
+	border-radius:10px;
+	margin-left:20px;
+	margin-right:20px;
+	background-color:#CCC;
+	height:500px;
+	margin-bottom:20px;
+	margin-top:10px;
+}
+#contents .inner h2{
+	padding-top:15px;
+	padding-left:40px;
+	color:#333;
+	font-size:26px;
+}
+.module{
+	position:absolute;
+	top:170px;
+	left:20px;
+	width:0;
+	height:0;
+	border-left:20px solid transparent;
+	border-right:20px solid transparent;
+	border-top:35px solid #444;
+}
+footer{text-align:center;}
+</style>
+</head>
+<body>
+<div id=header>
+<div class=inner>
+<h2>window.alert()<br />window.confirm()<br />window.prompt()</h2>
+<h1>JavaScript练习实例 - 01</h1>
+<div class=module>
+<!--module-->
+</div>
+<!--header_inner-->
+</div>
+<!--header-->
+</div>
+<div id=contents>
+<div class=inner>
+<h2>想要再次确认，请重新载入网页。</h2>
+<!--contents_inner-->
+</div>
+<!--contents-->
+</div>
+<footer><small>CopyRight by Kakeru 2015/6/6</small></footer>
+<script type="text/javascript">
+window.alert('这是一个"window.alert()"测试。');
+if(window.confirm('你快乐么?')){
+	window.alert('继续保持积极的态度哦!');
+	}else{
+		if(window.prompt('你能告诉我你为什么不快乐么？')){
+			window.alert('谢谢你的回答！');
+			}else{
+				window.alert('下次再见！');
+				}
+		}
+</script>
+</body>
+</html>
