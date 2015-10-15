@@ -32,6 +32,20 @@ public class sortAlgorithm {
 			}
 		}
 		System.out.println(Arrays.toString(nums));
+		//≤Â»Î∑®
+		nums = new int[]{1,6,3,7,9,8,2,10,4,5};
+		
+		for(int x=1;x<=nums.length-1;x++){
+			for(int y=x;y>=1;y--){
+				if(nums[y]>=nums[y-1]){
+					continue;
+				}
+				tmp=nums[y-1];
+				nums[y-1]=nums[y];
+				nums[y]=tmp;
+			}
+		}
+		System.out.println(Arrays.toString(nums));
 		
 	}
 
